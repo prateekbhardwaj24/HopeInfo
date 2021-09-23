@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">HopeInfo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">HopeInfo</string>
+    <string name="nav_header_subtitle">Stay Home Stay Safe</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">About</string>
+
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_gallery">Oxygen Cylinders</string>
+    <string name="menu_slideshow">Remdesivir</string>
+    <string name="menu_hospitalbeds">Hospital Beds</string>
+    <string name="menu_coid_tracker">Covid Tracker</string>
+    <string name="menu_user">Share Information</string>
+    <string name="precation">COVID Precautions</string>
+
+    <string name="edittext1_hint"><font size="15">Enter Your First Name</font></string>
+    <string name="edittext2_hint"><font size="15">Enter Your Last Name</font></string>
+    <string name="edittext3_hint"><font size="15">e.g- internet,friends etc.</font></string>
+    <string name="edittext4_hint"><font size="15">Locality e.g - radha puram</font></string>
+    <string name="edittext5_hint"><font size="15">Landmark e.g- near ram cinema</font></string>
+    <string name="edittext6_hint"><font size="15">City e.g - Agra</font></string>
+    <string name="edittext7_hint"><font size="15">State e.g- Uttar Pradesh</font></string>
+    <string name="edittext8_hint"><font size="15">Phone no1 896541XXXX</font></string>
+    <string name="edittext9_hint"><font size="15">Phone no2 987565XXXX</font></string>
+    <string name="Pincode"><font size="15">e.g - 282006</font></string>
+    <string name="edittext10_hint"><font size="15">Write something!</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="App_name_version">HopeInfo V1.0</string>
+    <string name="version_name">Version 5.21.1.0</string>
+    <string name="about">About</string>
+
+
+    <string name="stay_home"><font size="15">Don’t leave your house if you don’t feel well.
+The virus spreads mostly through droplets that people send out when they talk, sneeze, or cough</font></string>
+    <string name="Symptoms"><font size="15">if you  feel a little bit unwell like fever,
+   cough or a sore throat or sneeze, consult with your health provider immediately.
+</font></string>
+    <string name="mask"><font size="15">Masks should be used as part of a comprehensive strategy of measures to
+   suppress transmission and save lives, it prevents from many viruses present in air particles</font></string>
+    <string name="senit"><font size="15">senitizer can kill more than 99% of germs which you carry while putting hands on objects,rub senitizer on hands before/after touching any objects
+</font></string>
+    <string name="hug"><font size="15">hug or hand shake can transfer gems and bacterias, so it can make you ill.</font></string>
+    <string name="drink"><font size="15">honey has antibacterial proties and lemon has vit c together both will boost your degestion and immunity,drinking 1 glass of lukewarm water with 1 tablespoon honey and lemon can boost white blood cell efficiency to fight with infections</font></string>
+</resources>

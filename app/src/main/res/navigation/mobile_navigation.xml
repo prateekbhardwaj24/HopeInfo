@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.HInfo.HopeInfo.ui.dashboard.Dashboard_fragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_dashboard" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_gallery"-->
+<!--        android:name="com.card.covidapp.ui.oxygen_cylinder.Oxygen_fragment"-->
+<!--        android:label="@string/menu_gallery"-->
+<!--        tools:layout="@layout/fragment_oxygen" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/nav_slideshow"-->
+<!--        android:name="com.card.covidapp.ui.Remdesivir.Remdesivir_fragment"-->
+<!--        android:label="@string/menu_slideshow"-->
+<!--        tools:layout="@layout/fragment_remdesivir" />-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/hospital_beds"-->
+<!--        android:name="com.card.covidapp.ui.hospital_beds.Hospital_fragment"-->
+<!--        android:label="@string/menu_hospitalbeds"-->
+<!--        tools:layout="@layout/fragment_hospital_beds"/>-->
+
+    <fragment
+        android:id="@+id/covidTracker"
+        android:name="com.HInfo.HopeInfo.ui.covidTracker.covidTracker_fragment"
+        android:label="@string/menu_coid_tracker"
+        tools:layout="@layout/fragment_covid_tracker" />
+
+    <fragment
+        android:id="@+id/userForm"
+        android:name="com.HInfo.HopeInfo.ui.userUpload.dataByUser"
+        android:label="@string/menu_user"
+        tools:layout="@layout/fragment_data_by_user"/>
+
+    <fragment
+        android:id="@+id/precaution"
+        android:name="com.HInfo.HopeInfo.ui.precaution.precautionFragment"
+        android:label="@string/precation"
+        tools:layout="@layout/fragment_precaution"/>
+
+
+    <fragment
+        android:id="@+id/about"
+        android:name="com.HInfo.HopeInfo.ui.About"
+        android:label="@string/precation"
+        tools:layout="@layout/fragment_about"/>
+
+</navigation>

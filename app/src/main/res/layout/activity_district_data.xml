@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DistrictData"
+    android:background="@color/card_background">
+
+
+    <EditText
+        android:id="@+id/district_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search"
+        android:padding="10dp"
+        android:drawableStart="@drawable/ic_baseline_search_24"
+        android:elevation="20dp"
+        android:drawablePadding="4dp"
+        android:hint="Enter City Name"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/district_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/district_et"/>
+
+</RelativeLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="20dp"
+    android:background="@drawable/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/state_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color"
+            android:textStyle="bold"
+            android:text="Uttar Pradesh"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_margin="10dp"
+           android:gravity="center"
+           >
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:background="@color/confirmed_background"
+               android:layout_marginRight="4dp"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Confirmed Cases"
+                   android:textStyle="bold"
+                   android:textSize="12sp"
+                   android:layout_margin="5dp"
+                   android:textColor="@color/confirmed_text"/>
+
+               <TextView
+                   android:id="@+id/inc_c_tv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/confirmed_text"
+                   android:textSize="10sp"
+                   android:textAlignment="center"
+                   android:drawableTint="@color/confirmed_text"
+                   android:drawablePadding="2dp"
+                   android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
+                   />
+
+               <TextView
+                   android:id="@+id/c_cases_tv"
+                   android:layout_width="wrap_content"
+                   android:textSize="12sp"
+                   android:layout_margin="5dp"
+                   android:textAlignment="center"
+                   android:textColor="@color/confirmed_text"
+                   android:layout_height="wrap_content"
+                   />
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_marginRight="4dp"
+               android:background="@color/active_background"
+               >
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Active Cases"
+                   android:textStyle="bold"
+                   android:textSize="12sp"
+                   android:layout_margin="5dp"
+                   android:textColor="@color/active_text"/>
+
+               <TextView
+                   android:id="@+id/inc_a_tv"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/active_text"
+                   android:textSize="10sp"
+                   android:textAlignment="center"
+                   android:drawableTint="@color/active_text"
+                   android:drawablePadding="2dp"
+                   android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
+                   />
+
+
+               <TextView
+                   android:id="@+id/a_cases_tv"
+                   android:layout_width="wrap_content"
+                   android:textSize="12sp"
+                   android:textAlignment="center"
+                   android:layout_margin="5dp"
+                   android:textColor="@color/active_text"
+                   android:layout_height="wrap_content"
+                   />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="4dp"
+                android:background="@color/recovered_background"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recovered Cases"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/recovered_text"/>
+
+                <TextView
+                    android:id="@+id/inc_r_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/recovered_text"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:drawableTint="@color/recovered_text"
+                    android:drawablePadding="2dp"
+                    android:drawableStart="@drawable/ic_baseline_arrow_upward_24" />
+
+                <TextView
+                    android:id="@+id/r_cases_tv"
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_margin="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/recovered_text"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/deceased_background"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Deceased Cases"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/deceased_text"/>
+
+                <TextView
+                    android:id="@+id/inc_d_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/deceased_text"
+                    android:textSize="10sp"
+                    android:textAlignment="center"
+                    android:drawableTint="@color/deceased_text"
+                    android:drawablePadding="2dp"
+                    android:drawableStart="@drawable/ic_baseline_arrow_upward_24"
+                    />
+
+                <TextView
+                    android:id="@+id/d_cases_tv"
+                    android:layout_width="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_margin="5dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/deceased_text"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+       </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

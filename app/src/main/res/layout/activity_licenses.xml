@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".licensesActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/heading_licence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All the third party libraries are used to maintain the quality of platform and designing of activity components"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-------------------"
+            android:layout_marginBottom="25dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* Volley library,copyright 2018, The android open source project"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* gson by gson author, Copyright 2008-2011 Google Inc."
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* silicompressor credited to Jorge E. Hernandez (@lalongooo),Copyright 2016 Teyou Toure Nathan"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* AnstronCoreHelper ,Copyright (c) 2016 Zetra."
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="* picasso library,Copyright 2013 Square, Inc."
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Licensed under the Apache Licence, Version 2.0,(you may obtain a copy of the license at)"
+            android:textSize="15sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Implementation are done under the govt act of WARRANTY or CONDITION of any kind ,either express or implicit.please see the linceses of following implementation"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

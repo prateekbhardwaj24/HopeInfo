@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dashboard"
+            android:title="@string/menu_home" />
+<!--        <item-->
+<!--            android:id="@+id/nav_gallery"-->
+<!--            android:icon="@drawable/oxygen_cylinder"-->
+<!--            android:title="@string/menu_gallery" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_slideshow"-->
+<!--            android:icon="@drawable/injection"-->
+<!--            android:title="@string/menu_slideshow" />-->
+<!--        <item-->
+<!--            android:id="@+id/hospital_beds"-->
+<!--            android:icon="@drawable/hospital_bed"-->
+<!--            android:title="@string/menu_hospitalbeds" />-->
+        <item
+            android:id="@+id/covidTracker"
+            android:icon="@drawable/tracker"
+            android:title="@string/menu_coid_tracker"/>
+        <item
+            android:id="@+id/userForm"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/menu_user"/>
+
+        <item
+            android:id="@+id/precaution"
+            android:icon="@drawable/ic_baseline_health_and_safety_24"
+            android:title="@string/precation"/>
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_baseline_announcement_24"
+            android:title="@string/about"/>
+
+
+    </group>
+</menu>

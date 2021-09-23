@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DataFromUsers"
+    android:background="@color/card_background">
+
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/card_background"
+        android:padding="9dp">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="We Are Here To Help You ."
+            android:textAlignment="center"
+            android:textColor="#4CAF50"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:background="@color/card_background">
+
+            <ImageView
+                android:id="@+id/search_button1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/corners"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_card_giftcard_24"
+                app:tint="@color/white" />
+
+            <AutoCompleteTextView
+                android:id="@+id/searchEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toLeftOf="@id/search_button"
+                android:layout_toRightOf="@id/search_button1"
+                android:background="@drawable/bg"
+                android:drawablePadding="10dp"
+                android:drawableTint="@color/black"
+                android:hint="Search Your City Here.."
+                android:inputType="textCapSentences"
+                android:paddingLeft="20dp"
+                android:paddingTop="10dp"
+                android:elevation="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="#555"
+                android:textColorHint="#858383" />
+
+            <ImageView
+                android:id="@+id/search_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/corners"
+                android:padding="8dp"
+                android:src="@drawable/ic_baseline_search_24"
+                app:tint="@color/white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/noData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:text="No Data Found"
+            android:layout_below="@+id/l"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rec_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l"
+            android:layout_marginTop="18dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
